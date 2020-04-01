@@ -1,0 +1,20 @@
+uuid: 37d22a39-fa49-42b8-980c-d682a8e1f85b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.benefits_and_payments
+  module:
+    - path
+id: taxonomy_term.benefits_and_payments.path
+field_name: path
+entity_type: taxonomy_term
+bundle: benefits_and_payments
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

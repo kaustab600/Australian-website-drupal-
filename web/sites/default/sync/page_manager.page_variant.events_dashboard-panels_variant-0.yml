@@ -1,0 +1,42 @@
+uuid: 06203cd5-023a-4171-94e7-96792f8ce214
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.events_dashboard
+    - views.view.workflow_dashboard
+  module:
+    - panels
+    - views
+id: events_dashboard-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    0325138f-ed13-4f7c-b57d-e73121e3e4ca:
+      id: 'views_block:workflow_dashboard-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: first
+      weight: 0
+      uuid: 0325138f-ed13-4f7c-b57d-e73121e3e4ca
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 5b7ff13d-1381-4f64-a843-dd65951e01c1
+  label: null
+  weight: 0
+  layout: layout_threecol_25_50_25
+  layout_settings:
+    label: ''
+  page_title: ''
+  storage_type: page_manager
+  storage_id: events_dashboard-panels_variant-0
+  builder: standard
+page: events_dashboard
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

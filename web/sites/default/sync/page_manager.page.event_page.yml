@@ -1,0 +1,12 @@
+uuid: 4345944e-77bb-4dec-99be-ae0d8c3c8325
+langcode: en
+status: true
+dependencies: {  }
+id: event_page
+label: 'event page'
+description: 'event page for news and event submenu'
+use_admin_theme: false
+path: /events
+access_logic: and
+access_conditions: {  }
+parameters: {  }

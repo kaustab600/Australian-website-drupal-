@@ -1,0 +1,44 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+      fields:
+        title:
+          label: Título
+        created:
+          label: 'Creado en'
+        type:
+          label: 'Tipo de contenido'
+        edit_node:
+          text: editar
+        delete_node:
+          text: ' Eliminar'
+      title: 'Últimas noticias'
+  block_1:
+    display_options:
+      fields:
+        title:
+          label: Título
+        created:
+          label: 'Creado en'
+        type:
+          label: 'Tipo de contenido'
+        status:
+          label: Publicada
+        edit_node:
+          text: editar
+        delete_node:
+          text: Eliminar
+      filters:
+        uid:
+          expose:
+            label: ' Escrito por'
+  block_2:
+    display_options:
+      fields:
+        title:
+          label: Título
+        type:
+          label: 'Tipo de contenido'

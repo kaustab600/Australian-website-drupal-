@@ -1,0 +1,30 @@
+uuid: e5b5150c-9293-4539-aa1f-cff9946b4c33
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.culture_and_arts_page
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__culture_and_arts_page_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:culture_and_arts_page-block_1'
+settings:
+  id: 'views_block:culture_and_arts_page-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services/culture-and-arts
+    negate: false
+    context_mapping: {  }

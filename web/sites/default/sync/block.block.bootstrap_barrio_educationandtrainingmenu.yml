@@ -1,0 +1,30 @@
+uuid: 583d4f0d-464a-4abb-84f6-ea808eaa5299
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.education-and-training-menu
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_educationandtrainingmenu
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:education-and-training-menu'
+settings:
+  id: 'system_menu_block:education-and-training-menu'
+  label: 'popular education and training links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services/Education-and-training
+    negate: false
+    context_mapping: {  }

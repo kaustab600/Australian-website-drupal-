@@ -1,0 +1,44 @@
+uuid: b7b7bb6c-dd6b-42db-8ab6-8a8b30e6c6da
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+    - user
+  theme:
+    - mycustom_barrio
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: mycustom_barrio_page_title
+theme: mycustom_barrio
+region: content
+weight: -14
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      event_creator: event_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

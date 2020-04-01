@@ -1,0 +1,35 @@
+uuid: 6badfb3f-bb19-4159-9733-561c019d5144
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.information_and_service.body
+    - field.field.node.information_and_service.field_information_title
+    - field.field.node.information_and_service.field_title
+    - node.type.information_and_service
+  module:
+    - text
+    - user
+id: node.information_and_service.teaser
+targetEntityType: node
+bundle: information_and_service
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_information_title: true
+  field_title: true
+  langcode: true

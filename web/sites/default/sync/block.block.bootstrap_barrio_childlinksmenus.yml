@@ -1,0 +1,30 @@
+uuid: d1443612-01a2-4724-88a3-964b706121ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.child-links-menus
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_childlinksmenus
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:child-links-menus'
+settings:
+  id: 'system_menu_block:child-links-menus'
+  label: 'Popular links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services
+    negate: false
+    context_mapping: {  }

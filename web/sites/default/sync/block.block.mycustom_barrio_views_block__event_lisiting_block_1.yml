@@ -1,0 +1,38 @@
+uuid: 7fad9414-4159-4ead-9f97-83551433ef14
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.event_lisiting
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - mycustom_barrio
+id: mycustom_barrio_views_block__event_lisiting_block_1
+theme: mycustom_barrio
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:event_lisiting-block_1'
+settings:
+  id: 'views_block:event_lisiting-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      event_creator: event_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -1,0 +1,27 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+      filters:
+        moderation_state:
+          expose:
+            label: 'Estado de moderación'
+          group_info:
+            label: 'Estado de moderación'
+            group_items:
+              1:
+                title: sequía
+              2:
+                title: ' revisión'
+              3:
+                title: usuaria
+              4:
+                title: publicada
+      title: 'panel de flujo de trabajo'
+      empty:
+        area:
+          content:
+            value: "<p>No content is pending for review</p>\r\n"
+            format: basic_html

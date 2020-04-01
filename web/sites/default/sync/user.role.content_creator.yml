@@ -1,0 +1,24 @@
+uuid: e4d66d5c-8a91-4d85-ba01-2c895172618d
+langcode: en
+status: true
+dependencies: {  }
+id: content_creator
+label: 'Content Creator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create content_aus content'
+  - 'delete content_aus revisions'
+  - 'delete own content_aus content'
+  - 'edit own content_aus content'
+  - 'revert content_aus revisions'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition pending_review'
+  - 'use text format restricted_html'
+  - 'view content_aus revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

@@ -1,0 +1,22 @@
+uuid: 0e7d6f74-9824-4d61-b989-e89e574dbc58
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.culture_and_arts
+id: node.culture_and_arts.promote
+field_name: promote
+entity_type: node
+bundle: culture_and_arts
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

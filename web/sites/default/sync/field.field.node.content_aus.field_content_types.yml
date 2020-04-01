@@ -1,0 +1,29 @@
+uuid: 752b953b-0e01-45c3-8dd1-4a5ed1f4b6ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_types
+    - node.type.content_aus
+    - taxonomy.vocabulary.culture_and_arts
+id: node.content_aus.field_content_types
+field_name: field_content_types
+entity_type: node
+bundle: content_aus
+label: 'content types'
+description: 'list of all content types'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      culture_and_arts: culture_and_arts
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

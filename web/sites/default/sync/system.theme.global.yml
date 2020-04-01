@@ -1,0 +1,16 @@
+favicon:
+  mimetype: image/png
+  path: 'public://rsz_11rsz_kisspng-government-of-australia-melbourne-department-of-fo-5b900d240552b51499301415361672040218 (1)_1.png'
+  url: ''
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://rsz_11rsz_kisspng-government-of-australia-melbourne-department-of-fo-5b900d240552b51499301415361672040218 (1)_0.png'
+  url: ''
+  use_default: false
+_core:
+  default_config_hash: 9rAU4Pku7eMBQxauQqAgjzlcicFZ2As6zEa6zvTlCB8

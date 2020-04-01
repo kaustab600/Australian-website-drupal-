@@ -1,0 +1,10 @@
+uuid: 22764aee-ce87-41d4-94fb-bf2a0744ebf6
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.events_type_lisiting
+label: 'events type lisiting'
+targetEntityType: taxonomy_term
+cache: true

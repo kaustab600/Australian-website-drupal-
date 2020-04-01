@@ -1,0 +1,22 @@
+uuid: ceeb75ed-c7d4-44ad-bb62-b754db774de0
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.culture_and_arts
+id: taxonomy_term.culture_and_arts.status
+field_name: status
+entity_type: taxonomy_term
+bundle: culture_and_arts
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

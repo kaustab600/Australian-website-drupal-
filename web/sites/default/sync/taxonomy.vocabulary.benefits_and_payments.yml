@@ -1,0 +1,8 @@
+uuid: aab92b8d-1416-4379-b3b5-23dbd7398daa
+langcode: en
+status: true
+dependencies: {  }
+name: 'Benefits and Payments'
+vid: benefits_and_payments
+description: 'add pages about benefits and payments'
+weight: 0

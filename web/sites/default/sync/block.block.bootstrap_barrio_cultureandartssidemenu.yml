@@ -1,0 +1,30 @@
+uuid: ddd0cede-db38-4cb8-a836-4ed06aca9ed5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.culture-and-arts-sidemenu
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_cultureandartssidemenu
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:culture-and-arts-sidemenu'
+settings:
+  id: 'system_menu_block:culture-and-arts-sidemenu'
+  label: 'culture-and-arts popular links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services/culture-and-arts
+    negate: false
+    context_mapping: {  }

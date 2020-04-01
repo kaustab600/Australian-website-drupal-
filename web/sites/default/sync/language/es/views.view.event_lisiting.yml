@@ -1,0 +1,34 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+      title: 'listado de eventos'
+  block_1:
+    display_options:
+      title: 'Próximos Eventos'
+      filters:
+        uid:
+          expose:
+            label: 'Escrito por'
+      fields:
+        title:
+          label: Título
+        field_event_date:
+          label: 'Fecha del evento'
+        created:
+          label: 'Creado en'
+        status:
+          label: Publicada
+        delete_node:
+          text: Eliminar
+        edit_node:
+          text: editar
+  block_2:
+    display_options:
+      fields:
+        title:
+          label: 'Nombre del evento'
+        field_event_date:
+          label: 'Fecha del evento'

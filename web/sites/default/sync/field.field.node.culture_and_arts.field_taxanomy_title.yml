@@ -1,0 +1,29 @@
+uuid: 60cf388b-7780-4429-a765-8f4bd00c302b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxanomy_title
+    - node.type.culture_and_arts
+    - taxonomy.vocabulary.culture_and_arts
+id: node.culture_and_arts.field_taxanomy_title
+field_name: field_taxanomy_title
+entity_type: node
+bundle: culture_and_arts
+label: 'taxanomy title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      culture_and_arts: culture_and_arts
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,17 @@
+uuid: ea93dc40-bc75-4370-8f28-2ae7f63ffc24
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'information and service'
+type: information_and_service
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

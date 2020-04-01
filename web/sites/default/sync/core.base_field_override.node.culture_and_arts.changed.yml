@@ -1,0 +1,18 @@
+uuid: 58ddca6e-3c2a-4772-a4f8-203af1880051
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.culture_and_arts
+id: node.culture_and_arts.changed
+field_name: changed
+entity_type: node
+bundle: culture_and_arts
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

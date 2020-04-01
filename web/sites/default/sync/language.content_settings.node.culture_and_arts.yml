@@ -1,0 +1,18 @@
+uuid: c57f20fb-7856-4354-b97f-7fc8a68ac2f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.culture_and_arts
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.culture_and_arts
+target_entity_type_id: node
+target_bundle: culture_and_arts
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,38 @@
+uuid: 71697884-97bd-43de-b5bc-21977eb324f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_listing
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - mycustom_barrio
+id: mycustom_barrio_views_block__content_listing_block_1
+theme: mycustom_barrio
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:content_listing-block_1'
+settings:
+  id: 'views_block:content_listing-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/taxonomy/term/*'
+    negate: false
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      content_aus: content_aus
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,23 @@
+uuid: f763a251-e902-4a8f-96eb-19977e55854a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.culture_and_arts
+  module:
+    - text
+id: node.culture_and_arts.body
+field_name: body
+entity_type: node
+bundle: culture_and_arts
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

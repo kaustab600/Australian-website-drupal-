@@ -1,0 +1,20 @@
+uuid: 86ba7501-43e1-47ad-8872-1ac4206c91de
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.culture_and_arts
+  module:
+    - text
+id: taxonomy_term.culture_and_arts.description
+field_name: description
+entity_type: taxonomy_term
+bundle: culture_and_arts
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

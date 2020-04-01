@@ -1,0 +1,18 @@
+uuid: 095385c3-262a-405b-9d82-be26a8b2ecdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.culture_and_arts
+id: node.culture_and_arts.title
+field_name: title
+entity_type: node
+bundle: culture_and_arts
+label: 'culture Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

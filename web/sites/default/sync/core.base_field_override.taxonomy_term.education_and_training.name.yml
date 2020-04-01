@@ -1,0 +1,18 @@
+uuid: 6b2f43a5-af31-4d6f-8dfe-c78afeeac738
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_and_training
+id: taxonomy_term.education_and_training.name
+field_name: name
+entity_type: taxonomy_term
+bundle: education_and_training
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

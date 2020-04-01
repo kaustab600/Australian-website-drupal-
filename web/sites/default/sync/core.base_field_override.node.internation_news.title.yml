@@ -1,0 +1,18 @@
+uuid: 94e0d9f0-f66e-4273-9ad4-bdca19be6cbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.internation_news
+id: node.internation_news.title
+field_name: title
+entity_type: node
+bundle: internation_news
+label: 'Internation news title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

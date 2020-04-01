@@ -1,0 +1,29 @@
+uuid: bd39c048-57bf-4b15-8248-f7bd0ba6e45b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.benifits_and_payment.body
+    - node.type.benifits_and_payment
+  module:
+    - text
+    - user
+id: node.benifits_and_payment.default
+targetEntityType: node
+bundle: benifits_and_payment
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

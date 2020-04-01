@@ -1,0 +1,20 @@
+uuid: 64b244b5-b17f-4ec6-b2e1-ff6bb982e709
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_and_training
+  module:
+    - path
+id: taxonomy_term.education_and_training.path
+field_name: path
+entity_type: taxonomy_term
+bundle: education_and_training
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

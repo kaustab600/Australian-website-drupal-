@@ -1,0 +1,39 @@
+uuid: 49ca9ad8-7118-483b-8ea1-1abdc6021529
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_listing
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__content_listing_block_1_2
+theme: bootstrap_barrio
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:content_listing-block_1'
+settings:
+  id: 'views_block:content_listing-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      content_creator: content_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

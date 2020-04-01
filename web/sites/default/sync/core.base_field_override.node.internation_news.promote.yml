@@ -1,0 +1,22 @@
+uuid: d8b36edf-b5c5-4ee0-94c7-d4a9e13e9194
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.internation_news
+id: node.internation_news.promote
+field_name: promote
+entity_type: node
+bundle: internation_news
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

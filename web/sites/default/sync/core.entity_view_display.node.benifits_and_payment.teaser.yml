@@ -1,0 +1,31 @@
+uuid: ecbb6f19-8416-44d6-8735-ceca599423db
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.benifits_and_payment.body
+    - node.type.benifits_and_payment
+  module:
+    - text
+    - user
+id: node.benifits_and_payment.teaser
+targetEntityType: node
+bundle: benifits_and_payment
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

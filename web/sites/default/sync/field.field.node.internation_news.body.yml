@@ -1,0 +1,23 @@
+uuid: dd6c45eb-f31e-41bd-ab82-9cb06e6fcc0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.internation_news
+  module:
+    - text
+id: node.internation_news.body
+field_name: body
+entity_type: node
+bundle: internation_news
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,38 @@
+uuid: a4062277-d35b-4e35-8e44-424c03fe65d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.culture_and_arts.body
+    - field.field.node.culture_and_arts.field_taxanomy_title
+    - node.type.culture_and_arts
+  module:
+    - text
+    - user
+id: node.culture_and_arts.default
+targetEntityType: node
+bundle: culture_and_arts
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_taxanomy_title:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

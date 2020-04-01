@@ -1,0 +1,8 @@
+uuid: 4c9631ba-58ba-4676-a0f1-d481ecbc183b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Culture and Arts'
+vid: culture_and_arts
+description: 'content related to culture and arts'
+weight: 0

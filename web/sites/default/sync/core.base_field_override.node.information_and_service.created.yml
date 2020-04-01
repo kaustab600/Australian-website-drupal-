@@ -1,0 +1,18 @@
+uuid: c1ffe717-3bb2-4de2-a353-2797a6bb9696
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.information_and_service
+id: node.information_and_service.created
+field_name: created
+entity_type: node
+bundle: information_and_service
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,39 @@
+uuid: 9a3c57a6-cc87-4e8c-a185-22a1125b86fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_and_service.body
+    - field.field.node.information_and_service.field_information_title
+    - field.field.node.information_and_service.field_title
+    - node.type.information_and_service
+  module:
+    - text
+    - user
+id: node.information_and_service.default
+targetEntityType: node
+bundle: information_and_service
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_information_title:
+    weight: 1
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_title: true
+  langcode: true

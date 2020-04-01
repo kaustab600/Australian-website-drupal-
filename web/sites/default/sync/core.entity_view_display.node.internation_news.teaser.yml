@@ -1,0 +1,35 @@
+uuid: 748bbc6f-1fad-41c4-b7ba-3d0a8636bb34
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.internation_news.body
+    - field.field.node.internation_news.field_internation_news_image
+    - field.field.node.internation_news.field_news_type
+    - node.type.internation_news
+  module:
+    - text
+    - user
+id: node.internation_news.teaser
+targetEntityType: node
+bundle: internation_news
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_internation_news_image: true
+  field_news_type: true
+  langcode: true

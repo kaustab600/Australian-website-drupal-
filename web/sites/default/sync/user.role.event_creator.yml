@@ -1,0 +1,24 @@
+uuid: 3cc6a8a0-5442-4cfc-aa83-007338d28eb0
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create events content'
+  - 'delete events revisions'
+  - 'delete own events content'
+  - 'edit own events content'
+  - 'revert events revisions'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition pending_review'
+  - 'use text format restricted_html'
+  - 'view events revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

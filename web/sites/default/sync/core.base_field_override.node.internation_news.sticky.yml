@@ -1,0 +1,22 @@
+uuid: 846226bf-4924-4f39-a1f8-e3e8462f2101
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.internation_news
+id: node.internation_news.sticky
+field_name: sticky
+entity_type: node
+bundle: internation_news
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: 89b05631-9358-452e-a78b-2cf13b7892a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.benifits_and_payment
+  module:
+    - text
+id: node.benifits_and_payment.body
+field_name: body
+entity_type: node
+bundle: benifits_and_payment
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

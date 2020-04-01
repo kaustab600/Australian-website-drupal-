@@ -1,0 +1,8 @@
+uuid: 31a606f0-dd6c-4cc6-8a9f-d4499c485a67
+langcode: en
+status: true
+dependencies: {  }
+id: culture-and-arts-sidemenu
+label: 'culture-and-arts sidemenu'
+description: ''
+locked: false

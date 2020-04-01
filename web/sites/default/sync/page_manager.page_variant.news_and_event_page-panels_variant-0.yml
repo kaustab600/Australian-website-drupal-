@@ -1,0 +1,54 @@
+uuid: 9a3f8a96-77dd-45b6-a6f9-952b4b75d397
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.news_and_event_page
+    - views.view.event_lisiting
+    - views.view.news_listing
+  module:
+    - panels
+    - views
+id: news_and_event_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    efdd5b72-1017-4de8-b4cd-3df548a0604a:
+      id: 'views_block:event_lisiting-block_2'
+      label: 'Latest Events '
+      provider: views
+      label_display: visible
+      views_label: 'Latest Events '
+      items_per_page: '5'
+      region: second
+      weight: 0
+      uuid: efdd5b72-1017-4de8-b4cd-3df548a0604a
+      context_mapping: {  }
+    fc8e8f0c-2353-4b96-b36d-af4acc775191:
+      id: 'views_block:news_listing-block_2'
+      label: 'Latest News'
+      provider: views
+      label_display: visible
+      views_label: 'Latest News'
+      items_per_page: none
+      region: first
+      weight: 0
+      uuid: fc8e8f0c-2353-4b96-b36d-af4acc775191
+      context_mapping: {  }
+  id: panels_variant
+  uuid: d72ebbca-13ea-4c4c-9fc5-33cd54946b5c
+  label: null
+  weight: 0
+  layout: layout_twocol
+  layout_settings:
+    label: 'news and event page'
+  page_title: 'News and Event'
+  storage_type: page_manager
+  storage_id: news_and_event_page-panels_variant-0
+  builder: standard
+page: news_and_event_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

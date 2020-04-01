@@ -1,0 +1,57 @@
+uuid: 0f800541-7c00-4fd8-8a7f-551f48f997dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.event_page
+    - views.view.event_lisiting
+  content:
+    - 'block_content:basic:978bddd1-1b45-4572-b42f-d12c9c6cf790'
+  module:
+    - block_content
+    - panels
+    - views
+id: event_page-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    c0a0be91-6c97-4d8f-b76e-21d570366310:
+      id: 'block_content:978bddd1-1b45-4572-b42f-d12c9c6cf790'
+      label: 'Events Category'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: first
+      weight: 0
+      uuid: c0a0be91-6c97-4d8f-b76e-21d570366310
+      context_mapping: {  }
+    e9e085a1-08b6-4658-b3b9-29c80b5fff46:
+      id: 'views_block:event_lisiting-block_2'
+      label: 'Event lists'
+      provider: views
+      label_display: visible
+      views_label: 'Event lists'
+      items_per_page: none
+      region: second
+      weight: 0
+      uuid: e9e085a1-08b6-4658-b3b9-29c80b5fff46
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 37ec4815-90ec-4dfc-8416-98cfea745f56
+  label: null
+  weight: 0
+  layout: layout_twocol
+  layout_settings:
+    label: 'events page'
+  page_title: Events
+  storage_type: page_manager
+  storage_id: event_page-panels_variant-0
+  builder: standard
+page: event_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

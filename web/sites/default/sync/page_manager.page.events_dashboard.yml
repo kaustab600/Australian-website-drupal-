@@ -1,0 +1,12 @@
+uuid: a5685341-4eba-4af6-b6c4-9a07aba96d75
+langcode: en
+status: true
+dependencies: {  }
+id: events_dashboard
+label: 'events dashboard'
+description: 'workflow dashboard for events'
+use_admin_theme: false
+path: /workflow-dashboard
+access_logic: and
+access_conditions: {  }
+parameters: {  }

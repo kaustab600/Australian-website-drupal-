@@ -1,0 +1,18 @@
+uuid: dfa564f7-a3cf-4acd-8b1c-7daa3ad40fc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.internation_news
+id: node.internation_news.created
+field_name: created
+entity_type: node
+bundle: internation_news
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

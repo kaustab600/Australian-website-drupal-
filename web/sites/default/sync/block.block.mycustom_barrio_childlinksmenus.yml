@@ -1,0 +1,30 @@
+uuid: 42613811-fda0-4868-9314-5f6d0a774e33
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.child-links-menus
+  module:
+    - system
+  theme:
+    - mycustom_barrio
+id: mycustom_barrio_childlinksmenus
+theme: mycustom_barrio
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'system_menu_block:child-links-menus'
+settings:
+  id: 'system_menu_block:child-links-menus'
+  label: 'Popular links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,18 @@
+uuid: 4c82a300-d439-4e44-8d5f-63e06eecd335
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_and_training
+id: taxonomy_term.education_and_training.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: education_and_training
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

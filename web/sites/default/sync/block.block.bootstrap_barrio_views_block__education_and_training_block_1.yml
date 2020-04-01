@@ -1,0 +1,30 @@
+uuid: f4600c37-2465-4a49-bc43-722f168c85ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.education_and_training
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_views_block__education_and_training_block_1
+theme: bootstrap_barrio
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:education_and_training-block_1'
+settings:
+  id: 'views_block:education_and_training-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /information-and-services/Education-and-training
+    negate: false
+    context_mapping: {  }

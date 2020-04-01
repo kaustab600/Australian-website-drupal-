@@ -1,0 +1,38 @@
+uuid: bd8b3811-56b5-4a16-9832-e3edbbad3d24
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_workflow_dashboard
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - mycustom_barrio
+id: views_block__news_workflow_dashboard_block_1
+theme: mycustom_barrio
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:news_workflow_dashboard-block_1'
+settings:
+  id: 'views_block:news_workflow_dashboard-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      news_creator: news_creator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

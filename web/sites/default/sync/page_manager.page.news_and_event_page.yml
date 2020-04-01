@@ -1,0 +1,12 @@
+uuid: 5667e2ca-f143-454a-8ee7-2f79b25ba175
+langcode: en
+status: true
+dependencies: {  }
+id: news_and_event_page
+label: 'news and event page'
+description: ''
+use_admin_theme: false
+path: /news-and-event
+access_logic: and
+access_conditions: {  }
+parameters: {  }

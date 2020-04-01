@@ -1,0 +1,18 @@
+uuid: 5451d58e-2a52-4503-b705-7b1c3e92ed64
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.content_aus
+id: node.content_aus.created
+field_name: created
+entity_type: node
+bundle: content_aus
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

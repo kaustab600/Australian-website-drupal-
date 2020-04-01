@@ -1,0 +1,18 @@
+uuid: 425d07dd-cc71-4245-aa55-d5499fe73eb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.benifits_and_payment
+id: node.benifits_and_payment.title
+field_name: title
+entity_type: node
+bundle: benifits_and_payment
+label: 'benifits and payment'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

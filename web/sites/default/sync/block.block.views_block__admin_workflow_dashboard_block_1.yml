@@ -1,0 +1,38 @@
+uuid: 4eff93cc-7bac-4fca-b570-7f4b3323f7a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.admin_workflow_dashboard
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - mycustom_barrio
+id: views_block__admin_workflow_dashboard_block_1
+theme: mycustom_barrio
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:admin_workflow_dashboard-block_1'
+settings:
+  id: 'views_block:admin_workflow_dashboard-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

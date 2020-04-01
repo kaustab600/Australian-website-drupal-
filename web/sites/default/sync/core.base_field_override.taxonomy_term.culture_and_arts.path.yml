@@ -1,0 +1,20 @@
+uuid: da3e10dc-15f0-46da-82fa-c9f90411acef
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.culture_and_arts
+  module:
+    - path
+id: taxonomy_term.culture_and_arts.path
+field_name: path
+entity_type: taxonomy_term
+bundle: culture_and_arts
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

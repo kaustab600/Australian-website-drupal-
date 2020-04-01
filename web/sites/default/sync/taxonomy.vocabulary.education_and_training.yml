@@ -1,0 +1,8 @@
+uuid: cc4fcba8-0bee-4090-bc0b-7d08465b414f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Education and Training'
+vid: education_and_training
+description: ''
+weight: 0

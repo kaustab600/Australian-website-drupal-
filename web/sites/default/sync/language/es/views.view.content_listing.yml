@@ -1,0 +1,22 @@
+display:
+  default:
+    display_options:
+      fields:
+        title:
+          label: Título
+        created:
+          label: 'Creado en'
+        status:
+          label: Publicada
+        delete_node:
+          text: ' Eliminar'
+        edit_node:
+          text: ' editar'
+      title: 'listado de contenido'
+      exposed_form:
+        options:
+          submit_button: Aplicar
+      filters:
+        uid:
+          expose:
+            label: ' Escrito por'

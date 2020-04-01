@@ -1,0 +1,30 @@
+uuid: 986a14c0-b989-493f-a598-b1ba8b48aa92
+langcode: en
+status: true
+dependencies: {  }
+id: news_creator
+label: 'News Creator'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create internation_news content'
+  - 'create news content'
+  - 'delete internation_news revisions'
+  - 'delete news revisions'
+  - 'delete own internation_news content'
+  - 'delete own news content'
+  - 'edit own internation_news content'
+  - 'edit own news content'
+  - 'revert internation_news revisions'
+  - 'revert news revisions'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition pending_review'
+  - 'use text format restricted_html'
+  - 'view internation_news revisions'
+  - 'view latest version'
+  - 'view news revisions'
+  - 'view own unpublished content'

@@ -1,0 +1,5 @@
+label: 'beneficios y pago'
+display:
+  default:
+    display_options:
+      title: 'beneficios y pago'

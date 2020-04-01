@@ -1,0 +1,18 @@
+uuid: 84948bbb-e2b6-455d-8de1-a42aa4d0d10f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.education_and_training
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.education_and_training
+target_entity_type_id: taxonomy_term
+target_bundle: education_and_training
+default_langcode: site_default
+language_alterable: true

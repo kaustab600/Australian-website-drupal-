@@ -1,0 +1,8 @@
+uuid: d5484530-c2a3-4ed8-887b-a8d89e0b24bf
+langcode: en
+status: true
+dependencies: {  }
+id: education-and-training-menu
+label: 'education and training menu'
+description: ''
+locked: false

@@ -1,0 +1,18 @@
+uuid: 0d508734-c86d-449a-81d5-9b0725212190
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.benefits_and_payments
+id: taxonomy_term.benefits_and_payments.name
+field_name: name
+entity_type: taxonomy_term
+bundle: benefits_and_payments
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 43ba20c5-d47d-4226-98ef-d70369d64bad
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.culture_and_arts
+  module:
+    - path
+id: node.culture_and_arts.path
+field_name: path
+entity_type: node
+bundle: culture_and_arts
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,18 @@
+uuid: d48f265f-be5d-48ee-ad4f-585e5529d88c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.content_aus
+id: node.content_aus.title
+field_name: title
+entity_type: node
+bundle: content_aus
+label: 'content Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

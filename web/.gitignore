@@ -65,3 +65,13 @@ README.txt
 /scripts
 /themes
 /profiles
+/libraries
+
+.csslintrc
+.eslintignore
+.eslintrc.json
+.ht.router.php
+.htaccess
+index.php
+update.php
+web.config
